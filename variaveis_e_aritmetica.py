@@ -18,3 +18,11 @@ print(f"A soma dos valores {x} e {y} é {x + y} ")
 #Método 4
 x = float(input("Digite um valor: "))
 print("O quadrado de", x, "é", (x*x))
+
+#Método 5 - Formataçãod e casas decimais
+soma = 38500   #soma dos salários no ano
+media = soma/12.0
+# Muitas casas decimais:
+print("A média dos salários é ", media)
+# Formatação para 2 casas decimais:
+print(f"A média dos salários é {media:.{2}f}")
